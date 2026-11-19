@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Hoshi Clubb · Música urbana</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<svg class="sprite" aria-hidden="true"><symbol id="s" viewBox="0 0 24 24"><path d="M12 0c.8 6.6 3.4 9.2 12 12-8.6 2.8-11.2 5.4-12 12-.8-6.6-3.4-9.2-12-12C8.6 9.2 11.2 6.6 12 0z"/></symbol></svg>
+
+<header><nav aria-label="Principal">
+<a class="logo-link" href="#inicio">Hoshi Clubb</a>
+<a href="#noticias">Noticias</a><a href="#artistas">Artistas</a><a href="#conciertos">Conciertos</a><a href="#lanzamientos">Lanzamientos</a><a href="#merch">Merch</a><a href="#contacto">Contacto</a>
+</nav></header>
+
+<main>
+<div class="wrap hero" id="inicio">
+<img src="logo.webp" alt="Logotipo de Hoshi Clubb, ホシ・クラブ" width="1000" height="667">
+<p>Noticias, conciertos, lanzamientos y merch de la música urbana.</p>
+<a class="btn" href="#noticias">Ver las últimas noticias</a><a class="btn ghost" href="#artistas">Conocer a los artistas</a>
+</div>
+
+<section id="noticias"><div class="wrap">
+<h2>Noticias</h2><p class="sub">Giras, estrenos y cambios de fecha de los artistas que seguimos.</p>
+<div class="news" id="newsList"></div>
+</div></section>
+
+<section id="artistas"><div class="wrap">
+<h2>Artistas</h2><p class="sub">Quiénes forman parte de Hoshi Clubb, de Puerto Rico, México, Colombia y España.</p>
+<div class="tools"><input id="q" type="search" placeholder="Buscar artista, ciudad o género" aria-label="Buscar artista"><span id="chips" role="group" aria-label="Filtrar por país"></span></div>
+<div class="grid" id="artistGrid"></div>
+</div></section>
+
+<section id="conciertos"><div class="wrap">
+<h2>Conciertos</h2><p class="sub">Fecha, ciudad, recinto y estatus de cada show.</p>
+<div id="concertList"></div>
+</div></section>
+
+<section id="lanzamientos"><div class="wrap">
+<h2>Lanzamientos</h2><p class="sub">Álbumes, EP y sencillos de 2026.</p>
+<div class="rel" id="relList"></div>
+</div></section>
+
+<section id="merch"><div class="wrap">
+<h2>Merch</h2><p class="sub">Productos oficiales con su precio y enlace de compra.</p>
+<div id="merchList"></div>
+</div></section>
+
+<section id="contacto"><div class="wrap">
+<h2>Contacto</h2>
+<p class="sub">Hoshi Clubb es un sitio de noticias y entretenimiento sobre música urbana. “Hoshi” significa “estrella” en japonés: aquí los artistas y su música son las estrellas.</p>
+<p>¿Tienes una noticia, una fecha de concierto o un lanzamiento que debamos publicar? Compártelo con Alexa Fernanda Garza Gallegos, responsable del proyecto.</p>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+<p><b>Universidad Autónoma de Nuevo León</b> · Facultad de Ciencias de la Comunicación</p>
+<p>Unidad de aprendizaje: Recursos Digitales · Licenciatura en Mercadotecnia</p>
+<p>Alexa Fernanda Garza Gallegos · Matrícula 2118511</p>
+</div></footer>
+
+<script src="data.js" defer></script>
+<script src="app.js" defer></script>
+</body>
+</html>

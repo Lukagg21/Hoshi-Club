@@ -1,0 +1,7 @@
+{
+  "name": "hoshi-clubb",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Hoshi Clubb: sitio de noticias y entretenimiento de música urbana",
+  "engines": { "node": ">=18" }
+}
